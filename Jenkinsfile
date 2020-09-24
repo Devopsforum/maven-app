@@ -28,10 +28,10 @@ pipeline {
                                    '''				
 			}
 			post {
-                           always {
+                            always {
                                junit 'java-app/target/surefire-reports/*.xml'
-                           }
-                     }
+                            }
+                        }
 
 		}
 		stage('Push') {
