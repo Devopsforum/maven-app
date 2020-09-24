@@ -1,0 +1,1000 @@
+  233  cd centos/
+  234  vi Dockerfile 
+  235  docker-compose build
+  236  docker images 
+  237  docker-compose up -d
+  238  docker-compose up -d
+  239  docker ps -a
+  240  docker ps 
+  241  docker ps -a
+  242  docker start eb6da29a28fa
+  243  docker ps -a
+  244  docker ps -a
+  245  docker start $(docker ps -a -q --filter "status=exited")
+  246  docker ps -a
+  247  docker start -i eb6da29a28fa
+  248  docker start remote_host
+  249  docker ps -a
+  250  sudo docker start remote_host
+  251  docker ps 
+  252  docker ps -a
+  253  docker start `docker ps -a | awk '{print $1}'`
+  254  docker start `docker ps -a | awk '{print $5}'`
+  255  docker start `docker ps -a | awk '{print $6}'`
+  256  ll
+  257  docker ps 
+  258  docker images ls
+  259  docker images 
+  260  docker-compose build
+  261  ll
+  262  cd jenkins/
+  263  ll
+  264  cd jenkins_data/
+  265  ll
+  266  docker-compose build 
+  267  docker-compose up -d
+  268  docker-compose up -d
+  269  docker ps 
+  270  docker ps -a
+  271  docker start jenkins
+  272  docker ps 
+  273  service httpd start
+  274  service httpd status
+  275  service docker staus
+  276  service docker start
+  277  service docker staus
+  278  docker start
+  279  docker --version
+  280  docker-compose build
+  281  docker ps 
+  282  docker ps -a
+  283  docker images 
+  284  docker rm eb6da29a28fa 59288238f214
+  285  docker ps -a
+  286  vi docker-compose.yml 
+  287  ll
+  288  cd centos/
+  289  ll
+  290  vi Dockerfile 
+  291  docker build 
+  292  docker build .
+  293  docker images
+  294  docker rmi dc8a37651e2e 678374c03006 0d120b6ccaa8
+  295  docker images
+  296  cd ..
+  297  ll
+  298  cd jenkins_home/
+  299  ll
+  300  docker ps -a
+  301  docker image
+  302  docker image ls
+  303  docker-compose up -d
+  304  docker ps -a
+  305  docker rm 4247633a991a 0d31390a39fe
+  306  docker images -a
+  307  docker rmi ac20d4b74b83 749f0e5cc6cf 0c2f43cd3129 eeb2da584448 787ef19a829b 7bf95565b1d9 0d120b6ccaa8
+  308  docker images 
+  309  docker image ls
+  310  docker ps -a
+  311  docker ps 
+  312  git config --global user.name "Devopsforum"
+  313  git config --global user.eamil "devopsforum@gmail.com"
+  314  git config --list
+  315  dokcker images 
+  316  docker images
+  317  docker rmi b9734fc9070e
+  318  docker pull jenkins/jenkins
+  319  docker images 
+  320  docker images 
+  321  docker info | grep -i "root"
+  322  ll
+  323  cd ..
+  324  ll
+  325  vi docker-compose.yml 
+  326  vi docker-compose.yml 
+  327  vi docker-compose.yml 
+  328  ll
+  329  rm -rf jenkins_home
+  330  mkdir jenkins_home
+  331  ll
+  332  docker-compose up -d
+  333  ll
+  334  cd jenkins_home/
+  335  ll
+  336  cd ..
+  337  vi docker-compose.yml 
+  338  docker-compose up -d
+  339  vi docker-compose.yml 
+  340  docker-compose up -d
+  341  docker images 
+  342  docker-compose up -d
+  343  docker ps 
+  344  docker ps -a
+  345  docker logs -f jenkins
+  346  sudo chown 1000:1000 jenkins_home -R 
+  347  docker rm 5212b140a7d4
+  348  docker ps -a
+  349  docker stop b9734fc9070e
+  350  docker-compose up -d
+  351  docker-compose up -d
+  352  docker ps
+  353  docker logs -f jenkins
+  354  ll
+  355  cd centos/
+  356  ll
+  357  vi Dockerfile 
+  358  vi Dockerfile 
+  359  ll
+  360  pwd
+  361  vi Dockerfile 
+  362  cd ..
+  363  vi docker-compose.yml 
+  364  docker-compose build
+  365  vi docker-compose.yml 
+  366  vi docker-compose.yml 
+  367  docker-compose build
+  368  vi docker-compose.yml 
+  369  cd centos/
+  370  vi Dockerfile 
+  371  cd ..
+  372  docker-compose build
+  373  cd centos/
+  374  vi Dockerfile 
+  375  cd ..
+  376  docker-compose build
+  377  cd centos/
+  378  cat Dockerfile 
+  379  ocker images 
+  380  docker images 
+  381  cd ..
+  382  docker images 
+  383  docker ps -a
+  384  docker rm 831328ee2577
+  385  docker images 
+  386  docker rmi be14e1bf770c 0d120b6ccaa8
+  387  docker images 
+  388  docker-compose up -d
+  389  docker-compose up --build
+  390  docker-compose build
+  391  docker ps 
+  392  docker ps -a
+  393  docker start 0e2fad09abf5
+  394  docker ps 
+  395  docker start 40b47feef01a
+  396  docker ps 
+  397  docker exec -it jenkins bash
+  398  cd centos/
+  399  vi Dockerfile 
+  400  docker exec -it jenkins bash
+  401  vi DO
+  402  ll
+  403  vi Dockerfile 
+  404  cd ..
+  405  docker ps 
+  406  docker stop 40b47feef01a
+  407  docker ps 
+  408  docker rm 40b47feef01a
+  409  docker images 
+  410  docker rmi 10cac3334225 0d120b6ccaa8
+  411  docker images ls 
+  412  docker image ls 
+  413  docker-compose up -d
+  414  docker-compose up -d
+  415  docker ps 
+  416  docker ls 
+  417  docker images 
+  418  docker ps 
+  419  docker exec -it jenkins bash
+  420  cd centos/
+  421  ll
+  422  rm remote-key*
+  423  ll
+  424  ssh-keygen -f remote-key
+  425  ll
+  426  cd ..
+  427  docer-compose up -d
+  428  docker-compose up -d
+  429  docker ps 
+  430  docker stop c527842df018
+  431  docker rm c527842df018
+  432  docker images 
+  433  docker rmi cc274a6e4511 0d120b6ccaa8
+  434  docker images 
+  435  docker-compose up -d
+  436  docker-compose up -d
+  437  docker ps 
+  438  docker exec -it jenkins bash 
+  439  /etc/
+  440  ll
+  441  cd /etc/
+  442  ll
+  443  cat host
+  444  vi host
+  445  cd /var/
+  446  ll
+  447  cd /home/ec2-user/jenkins/jenkins_home/
+  448  ll
+  449  cd jenkins_home/
+  450  ll
+  451  cd ../../
+  452  ll
+  453  cd jenkins_data/
+  454  ll
+  455  docker exec -it jenkins bash
+  456  docker exec -it jenkins bash
+  457  cd centos/
+  458  ll
+  459  cat remote-key.pub 
+  460  cd ..
+  461  docker exec -it jenkins bash
+  462  docker cp centos/remote-key jenkins:/tmp
+  463  docker exec -it jenkins bash
+  464  cd centos/
+  465  cat remote-key
+  466  docker exec -it jenkins bash
+  467  exit
+  468  docker ps 
+  469  docker images 
+  470  cd /home/ec2-user/jenkins/
+  471  cd jenkins_data/
+  472  ll
+  473  vi docker-compose.yml 
+  474  docker-compose up -d
+  475  docker-compose up -d
+  476  docker ps -a
+  477  docker exec -it db bash
+  478  docker images
+  479  docker ps 
+  480  ll
+  481  cd db_data/
+  482  ll
+  483  cd ..
+  484  docker logs -f db
+  485  docker exec -it db bash 
+  486  docker exec -it remote_host bash 
+  487  cd centos/
+  488  vi Dockerfile 
+  489  ll
+  490  cd ..
+  491  docker-compose build
+  492  cd centos/
+  493  vi Dockerfile 
+  494  cd ..
+  495  docker-compose build
+  496  cd centos/
+  497  vi Dockerfile 
+  498  cd ../
+  499  docker-compose build
+  500  cd centos/
+  501  vi Dockerfile 
+  502  cd ..
+  503  docker ps 
+  504  docker ps -a
+  505  docker ps -a
+  506  docker rm dc7a72be38b1 bffda6576557
+  507  docker-compose build
+  508  docker ps -a
+  509  docker exec -it remote_host bash 
+  510  docker-compose up -d
+  511  docker exec -it remote_host bash 
+  512  docker ps 
+  513  cat docker-compose.yml 
+  514  docker exec -it remote_host bash 
+  515  docker exec -it remote_host bash 
+  516  ssh remote_user@remotehost
+  517  docker exec -it remote_host bash 
+  518  vi docker-compose.yml 
+  519  docker-compose up -d
+  520  exit
+  521  docker ps -a
+  522  cd /home/ec2-user/jenkins/
+  523  ll
+  524  cd jenkins_data/
+  525  ll
+  526  docker start 23b4d029edcf 05dc3acc1260 0e2fad09abf5
+  527  docker ps -a
+  528  mkdir jenkins-ansible
+  529  cd jenkins-ansible/
+  530  vi Dockerfile
+  531  cd ..
+  532  ll
+  533  vi docker-compose.yml 
+  534  vi docker-compose.yml 
+  535  docker-compose build
+  536  vi docker-compose.yml 
+  537  cd jenkins-ansible/
+  538  vi Dockerfile 
+  539  cd ../
+  540  cd centos/
+  541  vi Dockerfile 
+  542  cd ..
+  543  docker-compose build
+  544  docker images 
+  545  docker rmi c9cc72256860 6d2deab02f6b
+  546  docker ps -a
+  547  docker rmi c9cc72256860 6d2deab02f6b
+  548  docker ps -a
+  549  docker rm 4500c19c2eb0 92836b2d539d
+  550  docker images 
+  551  docker rmi c9cc72256860
+  552  docker images 
+  553  cd jenkins-ansible/
+  554  vi Dockerfile 
+  555  cd ..
+  556  docker-compose build
+  557  docker-compose up -d
+  558  cd jenkins-ansible/
+  559  vi Dockerfile 
+  560  cd ../
+  561  docker ps -a
+  562  docker images 
+  563  docker exec -it jenkins bash
+  564  cd centos/
+  565  cd ..
+  566  vi docker-compose.yml 
+  567  mkdir jenkins_home/ansible
+  568  docker exec -it jenkins bash
+  569  cp centos/remote-key jenkins_home/ansible/
+  570  docker exec -it jenkins bash
+  571  exir
+  572  exit
+  573  cd jenkins/jenkins_data/
+  574  ll
+  575  docker-compose build
+  576  docker ps -a
+  577  doker -s -a
+  578  docker ps -a
+  579  docker start d09320a186dd 23b4d029edcf 05dc3acc1260
+  580  docker ps -a
+  581  ll
+  582  cd jenkins-ansible/
+  583  ll
+  584  cp ../centos/remote-key .
+  585  ll
+  586  vi hosts
+  587  cat Dockerfile 
+  588  vi hosts
+  589  docker exec -it jenkins bash
+  590  vi hosts 
+  591  ll
+  592  cp hosts ../jenkins_home/ansible/
+  593  cp hosts ../jenkins_home/ansible/ .
+  594  docker exec -it jenkins bash
+  595  cat ../docker-compose.yml 
+  596  cat ../centos/Dockerfile 
+  597  docker exec -it jenkins bash
+  598  vi hosts 
+  599  docker exec -it jenkins bash
+  600  ll
+  601  rm hosts
+  602  ll
+  603  docker exec -it jenkins bash
+  604  cd ..
+  605  ll
+  606  cd jenkins_home
+  607  ll
+  608  cd ansible/
+  609  ll
+  610  cat hosts
+  611  rm hosts 
+  612  ll
+  613  docker exec -it jenkins bash
+  614  cd ../
+  615  cd ../
+  616  ll
+  617  cd jenkins-ansible/
+  618  ll
+  619  vi hosts
+  620  cat hosts 
+  621  cp hosts ../jenkins_home/ansible/ .
+  622  cd ../jenkins_home/ansible/
+  623  ll
+  624  cd -
+  625  cp hosts ../jenkins_home/ansible/
+  626  cd ../jenkins_home/
+  627  cd ansible/
+  628  ll
+  629  docker exec -it jenkins bash
+  630  ls
+  631  vi play.yml
+  632  cp play.yml ../../jenkins-ansible/
+  633  cd ../../
+  634  ll
+  635  cd jenkins-ansible/
+  636  ll
+  637  cd -
+  638  cd ../
+  639  cd jenkins_home/
+  640  ll
+  641  cd jenkins_home/
+  642  ll
+  643  cd ../../
+  644  ll
+  645  cd jenkins_data/
+  646  ll
+  647  cd ../../
+  648  ll
+  649  cd jenkins/
+  650  ll
+  651  cd jenkins_
+  652  cd jenkins_home/
+  653  ls
+  654  cd jenkins_home/
+  655  ll
+  656  cd ../../
+  657  cd jenkins_data/
+  658  ll
+  659  cd jenkins_home/
+  660  ll
+  661  cd ansible/
+  662  ll
+  663  rm play.yml 
+  664  ll
+  665  cd ../
+  666  cd ../
+  667  ll
+  668  cd jenkins-ansible/
+  669  ll
+  670  cat play.yml 
+  671  cp play.yml ../../jenkins_data/jenkins_home/ansible/
+  672  docker exec -it jenkins bash
+  673  ll
+  674  cd ../../jenkins_data/jenkins_home/ansible/
+  675  ll
+  676  chmod +x remote-key 
+  677  ll
+  678  chmod 777 remote-key 
+  679  ll
+  680  docker exec -it jenkins bash
+  681  cd ../
+  682  ll
+  683  cd ../
+  684  ll
+  685  cat docker-compose.yml 
+  686  cd centos/
+  687  cat Dockerfile 
+  688  vi Dockerfile 
+  689  cd ../
+  690  docker-compose build -d
+  691  docker-compose up -d
+  692  docker-compose build
+  693  docker-compose build
+  694  docker images
+  695  docker images
+  696  docker rmi 0c1636e8a853
+  697  docker rmi -f 0c1636e8a853
+  698  docker ps -a
+  699  docker exec -it jenkins bash
+  700  docker exec -ti remote-host bash
+  701  docker ps 
+  702  docker exec -ti remote_host bash
+  703  docker images 
+  704  docker ps -a
+  705  docker stop remote_host
+  706  docker rmi 0c1636e8a853
+  707  docker rmi -f 0c1636e8a853
+  708  docker ps 
+  709  docker ps -a
+  710  docker start remote_host
+  711  docker ps 
+  712  docker images 
+  713  docker logs -f jenkins
+  714  docker exec -it jenkins bash
+  715  sudo systemctl start sshd
+  716  services start sshd
+  717  docker ps -a
+  718  docker start jenkins remote_host db
+  719  docker logs -f jenkins 
+  720  cd jenkins/jenkins_data/
+  721  crumb=$(curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)')
+  722  crumb=$(curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)'
+  723  crumb=$(curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)
+  724  curl http://52.14.190.147:8080
+  725  crumb=$(curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)
+  726  '
+  727  curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)'
+  728  curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)'
+  729  echo $crumb
+  730  crumb=$(curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)
+  731  '
+  732  crumb=$(curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)')
+  733  crumb=$(curl -u "trigger:1234" -s 'http://52.14.190.147:8080/crumbIssuer/api/xml?xpath=concat(//crumbRequestField,":",//crumb)')
+  734  echo $crumb
+  735  vi crumb.sh
+  736  vi crumb.sh
+  737  chmod +x crumb.sh 
+  738  ./crumb.sh 
+  739  ./crumb.sh 
+  740  ./crumb.sh 
+  741  cat crumb.sh 
+  742  docker start jenkins remote_host db
+  743  docker exec -ti jenkins bash
+  744  cat /proc/cpuinfo | grep cores
+  745  free -h
+  746  df -h
+  747  cd jenkins/jenkins_data/
+  748  ls -l
+  749  vi docker-compose.yml 
+  750  git -version
+  751  git
+  752  git clone https://github.com/jenkins-docs/simple-java-maven-app.git
+  753  ll
+  754  ls -la
+  755  git status 
+  756  cd simple-java-maven-app/
+  757  git status 
+  758  cd ../
+  759  ll
+  760  cat crumb.sh 
+  761  git status 
+  762  ls -la
+  763  git clone git@github.com:Devopsforum/MavenDemo.git
+  764  git clone git@github.com:Devopsforum/jenkins-git-maven-test.git
+  765  ll
+  766  git clone https://github.com/Devopsforum/jenkins-git-maven-test.git
+  767  ll 
+  768  cp -R simple-java-maven-app/ jenkins-git-maven-test/
+  769  cd jenkins-git-maven-test/
+  770  ll
+  771  cd simple-java-maven-app
+  772  ll
+  773  cp jenkins/ jenkins-git-maven-test
+  774  cp -R jenkins/ jenkins-git-maven-test
+  775  cp -R src/ jenkins-git-maven-test
+  776  cp -R pom.xml jenkins-git-maven-test
+  777  cp -R README.md jenkins-git-maven-test
+  778  ll
+  779  cd ../
+  780  ll
+  781  rm -rf simple-java-maven-app/
+  782  ll
+  783  cp ../simple-java-maven-app/jenkins/ 
+  784  cp ../simple-java-maven-app/jenkins/ .-
+  785  cp -R ../simple-java-maven-app/jenkins/ .-
+  786  ll
+  787  ls 
+  788  cd ..
+  789  ll
+  790  cd simple-java-maven-app
+  791  ll
+  792  cd ../
+  793  cp -R simple-java-maven-app/jenkins/ jenkins-git-maven-test/
+  794  cp -R simple-java-maven-app/src/ jenkins-git-maven-test/
+  795  cp -R simple-java-maven-app/pom.xml jenkins-git-maven-test/
+  796  cd jenkins-git-maven-test/
+  797  ll
+  798  git status
+  799  git add -m "adding the java files"
+  800  git add .
+  801  git status 
+  802  git commit -m "adding java files"
+  803  git status 
+  804  git push origin master
+  805  git status 
+  806  cd ..
+  807  rm -rf simple-java-maven-app/
+  808  ll
+  809  cd /var/opt/
+  810  ll
+  811  ls 
+  812  cd -
+  813  grep -R git
+  814  grep -R git
+  815  cd jenkins_home/jobs/maven-job/
+  816  ll
+  817  mkdir customhooks
+  818  ll
+  819  cd customhooks/
+  820  pwd
+  821  cd /jenkins/jenkins_data/
+  822  cd /home/ec2-user/jenkins/jenkins_data/
+  823  ll
+  824  cd -
+  825  vi post-receive
+  826  chmod +x post-receive 
+  827  ll
+  828  cd ..
+  829  ll
+  830  cd builds/
+  831  ll
+  832  cd ../
+  833  ll
+  834  chown 1000:1000 customhooks/ -R
+  835  ll
+  836  cat nextBuildNumber
+  837  cd -
+  838  pwd
+  839  cd /home/ec2-user/jenkins/jenkins_data/jenkins_home/
+  840  ll
+  841  cd ../
+  842  ll
+  843  cd jenkins-git-maven-test
+  844  ll
+  845  git status 
+  846  gut pull 
+  847  git pull
+  848  grep -R hello
+  849  grep -R Hello
+  850  vi src/main/java/com/mycompany/app/App.java
+  851  vi src/main/java/com/mycompany/app/App.java
+  852  git status 
+  853  git add 
+  854  git add src/
+  855  git commit -m "change for hook"
+  856  git status 
+  857  git push origin master
+  858  ll
+  859  cd ..
+  860  cd /home/ec2-user/jenkins/jenkins_data/jenkins_home/jobs/maven-job/
+  861  ll
+  862  rm -rf customhooks/
+  863  ll
+  864  cd --
+  865  ll
+  866  pwd
+  867  cd /home/ec2-user/jenkins/jenkins_home/
+  868  ll
+  869  cd ../
+  870  jenkins_data/
+  871  cd jenkins_data/
+  872  ll
+  873  mkdir dsl 
+  874  vi job.j2
+  875  vi job.j2
+  876  vi job.j2
+  877  vi job.j2
+  878  cp job.j2 jenkins-git-maven-test/
+  879  ll
+  880  cd jenkins-git-maven-test/
+  881  git status 
+  882  git add .
+  883  git commit -m "Adding the DSL sample"
+  884  git status 
+  885  git push origin master
+  886  cd ../../
+  887  cd jenkins_data/
+  888  ll
+  889  ll
+  890  cd jenkins-git-maven-test
+  891  ll
+  892  cd jenkins/
+  893  ll
+  894  cd ../../
+  895  cd /var/jenkins_home/workspace/maven-job/target/
+  896  cd /var/jenkins_home/workspace
+  897  cd /var/jenkins_home/
+  898  cd /var/
+  899  ll
+  900  docker ps -a
+  901  grep -R surefire
+  902  grep -R surfire-reports
+  903  grep -R jenkins_home
+  904  df -h
+  905  cd -
+  906  ll
+  907  cd jenkins_home/
+  908  ll
+  909  cd workspace/
+  910  ll
+  911  cd maven-job/
+  912  ll
+  913  cd target/
+  914  ll
+  915  ls -la
+  916  docker start jenkins
+  917  dh -h
+  918  df -h
+  919  cd /var/jenkins_home/workspace/maven-job/target/
+  920  cd /var/jenkins_home/workspace/maven-job/
+  921  cd /var/
+  922  ll
+  923  cd /var/jenkins_home/workspace/maven-job/target/
+  924  docker exec -it jenkins bash
+  925  cd /home/ec2-user/jenkins/jenkins_data/
+  926  ll
+  927  cd jenkins-git-maven-test/
+  928  git config --global user.email "you@example.com"
+  929  git config --global user.email "devopsforum@gmail.com"
+  930  git config --global user.name "Devopsforum"
+  931  docker exec -it jenkins bash
+  932  docker ps -a
+  933  docker start remote_host db
+  934  aws opsworks stop-instance --region us-east-2 --instance-id i-09989dfdeb1823517
+  935  docker start jenkins remote_host db
+  936  cd /home/ec2-user/jenkins/jenkins_data/
+  937  mkdir pipeline
+  938  ll
+  939  cd pipeline
+  940  vi first-pipeline
+  941  cat first-pipeline 
+  942  vi multiple-steps-pipeline
+  943  cat multiple-steps-pipeline 
+  944  vi retry-step-pipeline
+  945  ll
+  946  cd ../
+  947  ll
+  948  mv pipeline/ pipeline-jenkinsfile
+  949  ll
+  950  ll pipeline-jenkinsfile/
+  951  mkdir pipeline
+  952  cd pipeline
+  953  vi Dockerfile
+  954  cat Dockerfile 
+  955  cd ..
+  956  vi docker-compose.yml 
+  957  vi docker-compose.yml 
+  958  ls /var/run/docker.sock 
+  959  vi docker-compose.yml 
+  960  docker-compose build
+  961  cd pipeline
+  962  vi Dockerfile 
+  963  cd -
+  964  docker-compose build
+  965  docker-compose build
+  966  cat pipeline/Dockerfile 
+  967  cat pipeline/Dockerfile 
+  968  vi pipeline/Dockerfile 
+  969  docker-compose build
+  970  vi pipeline/Dockerfile 
+  971  docker-compose build
+  972  vi pipeline/Dockerfile 
+  973  docker-compose build
+  974  vi pipeline/Dockerfile 
+  975  docker images
+  976  docker rmi bf7ecbd8c9a4
+  977  docker ps 
+  978  docker ps -a
+  979  docker rm bf7ecbd8c9a4 bf7ecbd8c9a4 bf7ecbd8c9a4 bf7ecbd8c9a4 bf7ecbd8c9a4 bf7ecbd8c9a4
+  980  docker ps -a
+  981  docker rm elegant_villani
+  982  docker ps -a
+  983  docker rm wonderful_wozniak nifty_rosalind zen_jones stoic_benz epic_lalande
+  984  docker ps -a
+  985  docker start jenkins
+  986  docker ps 
+  987  docker images 
+  988  docker rmi bf7ecbd8c9a4
+  989  docker images 
+  990  docker-compose build
+  991  vi pipeline/Dockerfile 
+  992  docker images 
+  993  docker rmi e3f7d0c2e30f
+  994  docker ps -a
+  995  docker rm youthful_galois
+  996  docker rmi e3f7d0c2e30f
+  997  docker-compose build
+  998  docker ps -a
+  999  docker rm interesting_solomon
+ 1000  docker images 
+ 1001  docker rmi 5ebce7b62441
+ 1002  vi pipeline/Dockerfile 
+ 1003  docker-compose build
+ 1004  docker ps 
+ 1005  docker images 
+ 1006  docker-compose build
+ 1007  vi Dockerfile 
+ 1008  vi pipeline/Dockerfile 
+ 1009  docker ps -a
+ 1010  docker exec -ti jenkins bash
+ 1011  docker images
+ 1012  docker-compose up -d
+ 1013  docker ps -a
+ 1014  docker exec -ti jenkins bash
+ 1015  ls
+ 1016  ll
+ 1017  vi docker-compose.yml 
+ 1018  cat docker-compose.yml 
+ 1019  docker images | grep docker
+ 1020  docker exec -ti jenkins bash
+ 1021  sudo chown 1000:1000 /var/run/docker.sock 
+ 1022  docker exec -ti jenkins bash
+ 1023  docker images
+ 1024  cd pipeline
+ 1025  ll
+ 1026  vi Jenkinsfile
+ 1027  ll
+ 1028  cd ..
+ 1029  ll
+ 1030  cd jenkins-git-maven-test/
+ 1031  ll
+ 1032  rm job.j2 post-receive 
+ 1033  ll
+ 1034  git status
+ 1035  git add .
+ 1036  git status 
+ 1037  git push origin master
+ 1038  git pull 
+ 1039  git status 
+ 1040  ll
+ 1041  cd ../
+ 1042  cp -R jenkins-git-maven-test/* pipeline/java-app
+ 1043  mkdir pipeline/java-app
+ 1044  cp -R jenkins-git-maven-test/* pipeline/java-app
+ 1045  ll
+ 1046  cd pipeline
+ 1047  ll
+ 1048  cd java-app/
+ 1049  ll
+ 1050  cd ..
+ 1051  ls -a
+ 1052  ll -a
+ 1053  mkdir jenkins/build -p
+ 1054  ll
+ 1055  ll jenkins/
+ 1056  docker pull maven:3-alpine
+ 1057  docker images
+ 1058  docker run -ti -v $PWD/java-app:/app maven:3-alpine sh
+ 1059  docker run -ti -v $PWD/java-app:/app maven:3-alpine sh
+ 1060  docker run --rm -ti -v $PWD/java-app:/app -v /root/.m2/ maven:3-alpine sh
+ 1061  docker run --rm -ti -v $PWD/java-app:/app -v /root/.m2/ -w maven:3-alpine sh
+ 1062  docker run --rm -ti -v $PWD/java-app:/app -v /root/.m2/ -w /app maven:3-alpine sh
+ 1063  docker run --rm -v $PWD/java-app:/app -v /root/.m2/ -w /app maven:3-alpine mvn -B -D dskipTests mvn clean package
+ 1064  docker run --rm -v $PWD/java-app:/app -v /root/.m2/ -w /app maven:3-alpine mvn -B -DskipTests mvn clean package
+ 1065  docker run --rm -v $PWD/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine mvn -B -DskipTests clean package
+ 1066  ls java-app/target/
+ 1067  rm -rf java-app/target/my-app-1.0-SNAPSHOT.jar 
+ 1068  docker run --rm -v $PWD/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine mvn -B -DskipTests clean package
+ 1069  ls java-app/target/
+ 1070  cd jenkins/
+ 1071  cd build/
+ 1072  ll
+ 1073  vi mvn.sh
+ 1074  vi mvn.sh
+ 1075  chmod +x mvn.sh 
+ 1076  vi mvn.sh
+ 1077  ./mvn.sh -B -DskipTests clean package
+ 1078  ./mvn.sh mvn -B -DskipTests clean package
+ 1079  cd ..
+ 1080  ll
+ 1081  cd ../
+ 1082  ll
+ 1083  ./jenkins/build/mvn.sh mvn -B -DskiptTests clean package
+ 1084  cat ./jenkins/build/mvn.sh
+ 1085  ll
+ 1086  cd jenkins/build/
+ 1087  ll
+ 1088  cd java-app/
+ 1089  ll
+ 1090  ls
+ 1091  ls -a
+ 1092  cd ..
+ 1093  rm -rf java-app/
+ 1094  ll
+ 1095  vi Dockerfile
+ 1096  cd ../../
+ 1097  ll
+ 1098  cd java-app/
+ 1099  ll
+ 1100  cd target/
+ 1101  ll
+ 1102  cd ../../
+ 1103  cd jenkins/build/
+ 1104  ll
+ 1105  cp ../../java-app/target/my-app-1.0-SNAPSHOT.jar .
+ 1106  ls *.jar
+ 1107  docker build -f Dockerfile -t test .
+ 1108  docker ps
+ 1109  docker images 
+ 1110  cat Dockerfile 
+ 1111  docker run --rm -ti test sh
+ 1112  vi Dockerfile
+ 1113  docker run --rm -ti test sh
+ 1114  docker run -d test
+ 1115  docker logs -f b36a4216df232c50021f914f0110dcdc3ea47f2c7882a84c874019ad859bc3e3
+ 1116  mv Dockerfile Dockerfile-java
+ 1117  ll
+ 1118  vi docker-compose-java.yml
+ 1119  docker-compose build
+ 1120  ll
+ 1121  cat docker-compose-java.yml 
+ 1122  ll
+ 1123  docker-compose -f docker-compose-java.yml build
+ 1124  export BUILD_TAG=1
+ 1125  docker-compose -f docker-compose-java.yml build
+ 1126  vi docker-compose-java.yml 
+ 1127  docker-compose -f docker-compose-java.yml build
+ 1128  vi docker-compose-java.yml 
+ 1129  docker-compose -f docker-compose-java.yml build
+ 1130  docker images 
+ 1131  vi docker-compose-java.yml 
+ 1132  history
+ 1133  cd ..
+ 1134  cd ..
+ 1135  ll
+ 1136  cd jenkins/build/
+ 1137  vi build.sh
+ 1138  ll
+ 1139  vi build.sh 
+ 1140  chmod +x build.sh 
+ 1141  cd ../../
+ 1142  ./jenkins/build/build.sh 
+ 1143  cat jenkins/build/build.sh 
+ 1144  ll
+ 1145  vi Jenkinsfile 
+ 1146  cat ./jenkins/build/build.sh 
+ 1147  cat ./jenkins/build/mvn.sh 
+ 1148  docker run --rm -v $PWD/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine mvn test
+ 1149  ls jenkins/
+ 1150  ls jenkins/build/
+ 1151  ll
+ 1152  ls java-app/
+ 1153  ls java-app/target/
+ 1154  mkdir jenkins/test
+ 1155  ls jenkins/test/
+ 1156  cp jenkins/build/mvn.sh jenkins/test/
+ 1157  vi jenkins/test/mvn.sh 
+ 1158  chmod +x jenkins/test/mvn.sh 
+ 1159  ./jenkins/test/mvn.sh mvn test
+ 1160  vi jenkins/test/mvn.sh 
+ 1161  vi jenkins/test/mvn.sh 
+ 1162  vi Jenkinsfile 
+ 1163  docker login
+ 1164  docker images 
+ 1165  docker ps -a
+ 1166  docker ps -a
+ 1167  docker rm lucid_shtern sad_goodall crazy_lehmann
+ 1168  docker images 
+ 1169  docker rmi e37b4d407478
+ 1170  docker images 
+ 1171  docker tag jenkins/docker:latest devopsforum/maven-project:latest
+ 1172  docker images
+ 1173  docker push devopsforum/maven-project:latest
+ 1174  docker images
+ 1175  docker push jenkins/docker:lastest
+ 1176  docker rmi devopsforum/maven-project
+ 1177  docker images 
+ 1178  ll
+ 1179  cd jenkins/
+ 1180  ll
+ 1181  mkdir push
+ 1182  ll
+ 1183  cd ..
+ 1184  vi jenkins/push/push.sh
+ 1185  vi jenkins/push/push.sh
+ 1186  chmod +x jenkins/push/push.sh 
+ 1187  ./jenkins/push/push.sh 
+ 1188  vi jenkins/test/mvn.sh 
+ 1189  vi jenkins/build/mvn.sh 
+ 1190  vi Jenkinsfile 
+ 1191  vi jenkins/build/docker-compose-java.yml 
+ 1192  export BUILD_TAG=latest
+ 1193  ./jenkins/push/push.sh 
+ 1194  docker images
+ 1195  docker tag devopsforum/maven-project:1 app:1
+ 1196  docker tag app:1 devopsforum/maven-project:1
+ 1197  docker images
+ 1198  ./jenkins/push/push.sh 
+ 1199  export BUILD_TAG=1
+ 1200  vi jenkins/build/docker-compose-java.yml 
+ 1201  ./jenkins/push/push.sh 
+ 1202  vi ./jenkins/push/push.sh 
+ 1203  docker images
+ 1204  docker push devopsforum/maven-project:1
+ 1205  ./jenkins/push/push.sh 
+ 1206  vi ./jenkins/push/push.sh 
+ 1207  cd jenkins/push/
+ 1208  ./push.sh 
+ 1209  export PASS=Saishirdi$143
+ 1210  ./push.sh 
+ 1211  vi push.sh 
+ 1212  vi push.sh 
+ 1213  ./push.sh 
+ 1214  export PASS=WERTYU
+ 1215  echo $PASS
+ 1216  cd ../../
+ 1217  ll
+ 1218  vi Jenkinsfile 
+ 1219  ./jenkins/push/push.sh 
+ 1220  vi ./jenkins/push/push.sh 
+ 1221  ./jenkins/push/push.sh 
+ 1222  mkdir jenkins/deploy
+ 1223  vi jenkins/deploy/deploy.sh
+ 1224  ./jenkins/deploy/deploy.sh
+ 1225  chmod +x ./jenkins/deploy/deploy.sh 
+ 1226  ./jenkins/deploy/deploy.sh
+ 1227  cat /tmp/.auth 
+ 1228  ./jenkins/deploy/deploy.sh
+ 1229  vi jenkins/deploy/deploy.sh
+ 1230  ./jenkins/deploy/deploy.sh
+ 1231  cat /tmp/.auth 
+ 1232  history >> history.txt
